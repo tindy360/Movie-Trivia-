@@ -24,7 +24,7 @@ var questionDatabase = [
 			display_answer: 'A The Red Pill.'
 		},
 		{
-			question: 'What actor once haad a job as a coffin polisher?',
+			question: 'What actor once had a job as a coffin polisher?',
 			answerA: 'Ashton Kutcher',
 			answerB: 'Sean Connery',
 			answerC: 'Bill Murray',
@@ -42,7 +42,7 @@ var questionDatabase = [
 			display_answer: 'C: Henry'
 		},
 		{
-			question: 'How many Police Cademy Movies have there been?',
+			question: 'How many Police Academy Movies have there been?',
 			answerA: '4',
 			answerB: '6',
 			answerC: '5',

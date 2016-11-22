@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"/>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Random Film Triva</title>
+</head>
+
+<body>
+  <section class="jumbotron">
+
+  <div id="js-homepage">
+  	<h1 class="headline">Welcome to Random Film Trivia!</h1>
+  	<p id="topBarText"></p>
+  	<p class="hidden" id="resutlsDisplay"#</p>
+    <div class="hidden" id="final-quiz-results">
+      <p id="js-correct-answers"></p>
+      <p id="js-incorrect-answers"></p>
+      <p id="js-final-score"></p>
+    </div>
+  </div>
+  <div id="take-quiz" class="centered-btn">
+  	<button id="startBtn" class="btn btn-primary centered-btn">Take the quiz</button>
+  </div>
+  <div id="current-score"></div>
+  <div class="hidden" id="js-quiz">
+  	<form id="js-quiz-form">
+  		<p id="js-question"></p>
+      <ul>
+  		<li><input type="radio" name="answer" value="js-a">
+        <span id="js-answerA"></span><br>
+      </li>
+			<li><input type="radio" name="answer" value="js-b">
+        <span id="js-answerB"></span><br>
+        </li>
+			<li><input type="radio" name="answer" value="js-c">
+        <span id="js-answerC"></span><br>
+        </li>
+			<li><input type="radio" name="answer" value="js-d">
+        <span id="js-answerD"></span><br>
+        </li>
+        </ul>
+			<input type="reset" class="btn btn-success" id="submitButton" value="Submit">
+  	</form>
+  </div>
+  <div id="next-question" class="centered-btn">
+  	<button class="hidden btn btn-primary" id="nextQuestionButton">Next question</button>
+  </div>
+  <div id="results-info" class="centered-btn">
+      <button class="hidden btn btn-primary" id="restartQuizBtn">Take quiz again</button>
+  </div>
+    </section>
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="app.js"></script>
+
+</html>

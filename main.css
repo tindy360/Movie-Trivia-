@@ -1,0 +1,44 @@
+.intro{
+  border box-sizing: 250px;
+
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.questions {
+
+  text-align: left;
+}
+
+.question{
+  display: inline;
+}
+
+.numbers{
+  display: inline;
+}
+
+.radioBtn {
+  display: inline; pdding: 5px;
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.Next {
+  float: right;
+}
+
+.headline {
+  text-decoration-color: #d81b06;
+
+}
